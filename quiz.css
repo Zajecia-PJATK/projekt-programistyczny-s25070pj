@@ -1,0 +1,94 @@
+body{
+    color: #fff;
+
+}
+
+#container{
+    min-width: 60vh;
+}
+
+#game{
+    background-color: #414141;
+    border-radius: 50px;
+    padding: 3rem;
+    box-shadow: 0 0.4rem 5.4rem 0 rgbA(80, 134, 264, 0.6);
+    max-height: content-box;
+}
+
+
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width:  100%;
+    height: 3rem;
+    border: 0.2rem solid rgb(11,223,26);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressBarFull{
+    height: 100%;
+    background: rgb(11,223,26);
+    width: 0%;
+}
+
+
+
+
+
+.choice-container{
+    display: flex;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    border-radius: 15px;
+    background: rgb(247,255,21);
+    background: linear-gradient(90deg, rgba(247,255,21,1) 0%, rgba(236,255,30,1) 100%);
+
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow:  0 0.2rem 1rem 0 rgbA(247,255,21, 0.5);
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+
+.choice-prefix{
+    padding: 2rem  2.5rem;
+    color: chocolate;
+    font-size: 2rem;
+}
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+    color: #414141;
+    font-size: 2rem;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11,223,36) 0%, rgb(41,232,111) 100%)
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230,29,29, 1) 0%, rgb(224,11,11,1) 100%)
+}
+
+
+
+
+
+
