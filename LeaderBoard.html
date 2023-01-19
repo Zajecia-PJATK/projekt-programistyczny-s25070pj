@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>leaderboard</title>
+    <title>Leaderboard 1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="leaderboard.css">
 </head>
@@ -12,6 +12,7 @@
             <div id="home" class="flex-center flex-column">
                 <h1 id="finalScore">Leaderboard</h1>
                 <ul id="highScoresList"></ul>
+                <p class="btn" onclick="localStorage.removeItem('highScores') + location.reload() ">Wyczyść drabinkę</p>
                 <a href="index.html" class="btn">Go home</a>
             </div>
         </div>
