@@ -146,8 +146,15 @@ startThirdGame = () => {
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
+        if (title === "Quiz 1"){
+            return window.location.assign('summary1.html')
+        } else if (title === "Quiz 2"){
+            return window.location.assign('summary2.html')
+        } else if (title === "Quiz 3"){
+            return window.location.assign('summary3.html')
+        }
 
-        return window.location.assign('summary.html')
+
     }
 
     questionCounter++
