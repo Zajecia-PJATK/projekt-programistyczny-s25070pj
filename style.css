@@ -12,6 +12,21 @@ body {
     background: rgb(83, 60, 70);
     background: radial-gradient(circle, rgba(83, 60, 70, 0.527669783733806) 0%, rgba(24, 48, 75, 1) 100%);
 }
+
+main{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container{
+
+
+
+    margin: 0 auto;
+    padding: 2rem;
+}
 #home{
     background-color: #414141;
     border-radius: 50px;
@@ -23,35 +38,9 @@ body {
 
 }
 
-h1{
-    font-size: 5.4rem;
-    color: white;
-    margin-bottom: 5rem;
-}
-h2{
-    font-size: 4.2rem;
-    margin-bottom: 4rem;
-}
-
-main{
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-#container{
-
-    max-height: 100%;
-
-    margin: 0 auto;
-    padding: 2rem;
 
 
 
-
-}
 .flex-column{
     display: flex;
 
@@ -72,6 +61,16 @@ main{
 .hidden{
     display: none;
 }
+
+h1{
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
 .btn{
     font-size: 2.4rem;
     padding: 2rem 0;
@@ -83,7 +82,6 @@ main{
     font-weight: bold;
     background: rgb(247,255,21);
     background: linear-gradient(90deg, rgba(247,255,21,1) 0%, rgba(236,255,30,1) 100%);
-
     border-radius: 10px;
 }
 
